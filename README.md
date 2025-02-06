@@ -14,39 +14,43 @@
 4. Now you have a local git repository that is tied to your GitHub repository.
 	- Here you can:
 		- Add your files
+		- Create branches
+		- Merge branches
 		- Commit
 		- Push changes to GitHub
+		- Pull changes from GitHub
 
 ### Usefull commands:
 **Local repository related commands**
 - Initialise an empty local repository
-	- git init 
+	- *git init* 
 - See status of the git repository
-	- git status
+	- *git status*
 - Add files for staging
-	- git add \<filename\> *or* git add -A *for all files*
+	- *git add \<filename\>* | add single file
+	- *git add -A* | add all files
 - Commit changes
-	- git commit -m "\<describe change\>"
+	- *git commit -m "\<describe change\>"*
 - See branches
-	- git branch *for local branches*
-	- git branch -r *for remote branches*
-	- git branch -a *for all branches*
+	- *git branch* | for local branches
+	- *git branch -r* | for remote branches
+	- *git branch -a* | for all branches
 - Change branch
-	- git checkout \<branch you want to change to\>
+	- *git checkout \<branch you want to change to\>*
 - See commit log
 	- git log
 - Merge two branches
-	- git merge <branch you want to merge into the branch you are in>
+	- *git merge <branch you want to merge into the branch you are in>*
 
 **Remote repository related commands**
 - Add a remote repository to a local repository
-	- git add remote origin \<remote repository link\>
+	- *git add remote origin \<remote repository link\>*
 - Clone a remote repository into a local repository
-	- git clone \<remote repository link\>
+	- *git clone \<remote repository link\>*
 - Pull changes from remote repository (combination of *fetch* and *merge*)
-	- git pull 
+	- *git pull*
 - Push changes to remote repository
-	- git push
+	- *git push*
 
 **GitHub specific actions**
 - Forking a repository means that you make a copy of someone else's repository and save the copy as a repository that you *own*
