@@ -8,7 +8,7 @@
 	- Decide what license you want to use
 2. From your repository, click the green code button and copy the HTTPS link
 3. On your local computer open CMD and navigate to where you want your folder to be
-	- Run *git clone <link to your repository on github>
+	- Run *git clone <link to your repository on github>*
 	- A folder for your repository will be created
 	- Navigate into the folder
 4. Now you have a local git repository that is tied to your GitHub repository.
@@ -40,7 +40,7 @@
 
 **Remote repository related commands**
 - Add a remote repository to a local repository
-	- git add remote origin <remote repository link>
+	- git add remote origin \<remote repository link\>
 - Clone a remote repository into a local repository
 	- git clone <remote repository link>
 - Pull changes from remote repository (combination of *fetch* and *merge*)
